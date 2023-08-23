@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Formatação de tabelas / CSS - Classes</title>
+        <style type="text/css">
+            body{background-color: #a1a1e9}
+            table{border-spacing:0px;border-collapse:collapse}
+            td{border:1px solid #0000ff;padding:0px}
+            .titulo1,.titulo2{
+                background-color:#808080;
+                text-align:center;
+                height:50px;
+                vertical-align:midlle;
+                color:#ffffff;
+                font-weight:bold;
+                font-size:23px;
+                font-family:Arial;
+                font-style:italic
+            }
+            .titulo2{
+                background-color:#c0c0c0;
+                height:30px;
+                font-size:15px;
+                color: #000000;
+            }
+            .colaborador,.salario{
+                color: #000080;
+                background-color:#e6e2e2;
+            }
+            .salario{
+                color:#800000;
+            }
+        </style>
+    </head> 
+        <table width="500">
+            <tr>
+                <td colspan="2" class="titulo1">Tabela de Colaboradores</td>
+            </tr>
+            <tr>
+                <td class="titulo2">Colaborador</td><td class="titulo2">Salário</td>
+            </tr>
+            <tr>
+                <td class="colaborador">Merioswaldir</td><td class="salario">R$3.500,00</td>
+            </tr>
+            <tr>
+                <td class="colaborador">Benecléia</td><td class="salario">R$2.750,00</td>
+            </tr>
+            <tr>
+                <td class="colaborador">Faromildon</td><td class="salario">R$3.000,00</td>
+            </tr>
+        </table>
+    <body>
+
+    </body>
+</html>
